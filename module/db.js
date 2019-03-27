@@ -20,7 +20,7 @@ var models = {
   aboutUserr: mongoose.model('about', aboutUser)
 }
 
-mongoose.connect('mongodb://root:dong7848@localhost/gomall',{useNewUrlParser:true}, err => {
+mongoose.connect('mongodb://dba:dong7848@192.168.199.198/blog',{useNewUrlParser:true}, err => {
   if (err) {
     console.error('数据库连接失败')
   } else {
